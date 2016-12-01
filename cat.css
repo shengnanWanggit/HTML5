@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-11-10 17:27:03
+ * @version $Id$
+ */
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        /*background: #eee;*/
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        max-width: 640px;
+        min-width: 320px;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgba(255,204,0,.6);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide .join {
+    	position: relative;
+    	width: 100%;
+    	height: 100%;
+    }
+    .swiper-slide img {
+    	width: 100%;
+    }
+    .swiper-slide .header_cont .ima1 {
+    	position: absolute;
+    	width: 100%;
+    	top: 0;
+    	left: 0;
+    }
+    .swiper-slide .header_cont .ima2 {
+    	position: absolute;
+    	top: 19%;
+    	z-index: -1;
+    }
+    .swiper-slide .header_cont .ima2 img {
+    	width: 86%;
+    }
+    .swiper-slide .header_cont .ima3 {
+    	position: absolute;
+    	width: 100%;
+    	bottom: 0;
+    	left: 0;
+    }
+    .swiper-slide .header_cont .ima3 img {
+    	vertical-align: bottom;
+    }
+    .swiper-slide .header_cont .ima4 {
+    	position: absolute;
+    	left: 0;
+    	top: 26%;
+    }
+    .swiper-slide .header_cont .ima4 img {
+    	width: 51%;
+    }
+    .swiper-slide .header_cont .ima5 {
+    	position: absolute;
+    	top: 39%;
+    	left: 0;
+    }
+    .swiper-slide .header_cont .ima5 img {
+    	width: 50%;
+    }
+    .swiper-slide .second {
+    	background-color: #fff000;
+    	overflow: hidden;
+    }
+    .swiper-slide .second .ima6 {
+    	position: absolute;
+    	top: -2%;
+    	left: 0;
+    	z-index: 1;
+    }
+    .swiper-slide .second .ima11 {
+    	position: absolute;
+    	left: 0;
+    	bottom: 0;
+    	font-size: 0;
+    	z-index: 1;
+    }
+    .swiper-slide .second .ima11 img {
+    	width: 101%;
+    }
+    .swiper-slide .second .ima7 {
+    	position: absolute;
+    	left: 0;
+    	top: 21%;
+    	z-index: 1;
+    }
+    .swiper-slide .second .ima7 img {
+    	width: 60%;
+    }
+    .swiper-slide .second .ima10 {
+    	position: absolute;
+    	left: 0;
+    	bottom: 10%;
+    	z-index: 1;
+    }
+    .swiper-slide .second .ima10 img {
+    	width: 70%;
+    }
+    .swiper-slide .second .ima8 {
+    	position: absolute;
+    	top: 3%;
+    	left: 0;
+    }
+    .swiper-slide .second .ima12 {
+		position: absolute;
+		top: 12%;
+		left: 0;
+     }
+    .swiper-slide .second .ima9 {
+    	position: absolute;
+    	left: 0;
+    	top: 6%;
+    	z-index: 1;
+    }
+    .swiper-slide .second .ima9 img {
+    	width: 80%;
+    }
+    .swiper-slide .three {
+    	background-color: #b9e2f2;
+    	z-index: 0;
+    }
+    .swiper-slide .three .ima19 {
+    	position: absolute;
+    	bottom: 0;
+    	left: 0;
+    	font-size: 0;
+    }
+    .swiper-slide .three .ima16 {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	z-index: -1;
+    }
+    .swiper-slide .three .ima13, .swiper-slide .three .ima17 {
+		position: absolute;
+		top: 44%;
+		left: 0;
+		z-index: -1;
+    }
+    .swiper-slide .three .ima18 {
+    	position: absolute;
+    	top: 3%;
+    	left: 0;
+    }
+    .swiper-slide .three .ima14 {
+		position: absolute;
+    	top: 28%;
+    	left: 0;
+    }
+    .swiper-slide .three .ima14 img {
+    	width: 60%;
+    }
+    .swiper-slide .three .ima15 {
+		position: absolute;
+    	bottom: 14%;
+    	left: 0;
+    }
+    .swiper-slide .three .ima15 img {
+    	width: 80%;
+    }
+    .swiper-slide .three .ima20 {
+    	position: absolute;
+    	bottom: 17%;
+    	left: 0;
+    }
+    .swiper-slide .three .ima20 img {
+    	width: 75%;
+    }
+	.swiper-slide .four {
+		background-color: black;
+        overflow: hidden;
+	}
+    .swiper-slide .four .ima22 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 0;
+    }
+    .swiper-slide .four .ima25 {
+        position: absolute;
+        top: -7%;
+        left: -6%;
+        font-size: 0;
+    }
+    .swiper-slide .four .ima25 img {
+        width: 80%;
+    }
+    .swiper-slide .four .ima23 {
+        position: absolute;
+        top: 6%;
+        left: 0;
+    }
+    .swiper-slide .four .ima26 {
+        position: absolute;
+        top: 0;
+    }
+    .swiper-slide .four .ima21 {
+        position: absolute;
+        top: 27%;
+    }
+    .swiper-slide .four .ima21 img {
+        width: 60%;
+    }
+    .swiper-slide .four .ima27 {
+        position: absolute;
+        top: 12%;
+    }
+    .swiper-slide .four .ima27 img {
+        width: 75%;
+    }
+    .swiper-slide .four .ima24 {
+        position: absolute;
+        bottom: 8%;
+    }
+    .swiper-slide .four .ima24 img {
+        width: 80%;
+    }
+    .swiper-slide .five {
+        background-color: white;
+        overflow: hidden;
+    }
+    .swiper-slide .five .ima32 {
+        position: absolute;
+        bottom: 0;
+        font-size: 0;
+    }
+    .swiper-slide .five .ima32 img {
+        width: 185%;
+    }
+    .swiper-slide .five .ima31 {
+        position: absolute;
+        bottom: -7%;
+        font-size: 0;
+    }
+    .swiper-slide .five .ima29 {
+        position: absolute;
+        top: 10%;
+    }
+    .swiper-slide .five .ima29 img {
+        width: 80%;
+    }
+    .swiper-slide .five .ima30 {
+        position: absolute;
+        top: 18%;
+    }
+    .swiper-slide .five .ima30 img {
+        width: 77%;
+    }
+    .swiper-slide .five .ima28 {
+        position: absolute;
+        top: 10%;
+    }
+    .swiper-slide .five .ima28 img {
+        width: 80%;
+    }
+    .swiper-slide .six {
+        background-color: #fccc00;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .swiper-slide .six .ima39 {
+        position: absolute;
+        top: -45%;
+        left: 0;
+        z-index: -1;
+    }
+    .swiper-slide .six .ima34 {
+        position: absolute;
+        top: 52%;
+    }
+    .swiper-slide .six .ima34 img {
+        width: 70%;
+        position: relative;
+        left: 10%;
+    }
+    .swiper-slide .six .ima35 {
+        position: absolute;
+        top: 61%; 
+    }
+    .swiper-slide .six .ima35 img {
+        width: 80%;   
+    }
+    .swiper-slide .six .ima38 {
+        position: absolute;
+        bottom: 7%;
+    }
+    .swiper-slide .six .ima38 img {
+        width: 80%;
+    }
+    .swiper-slide .six .ima36 {
+        position: absolute;
+        top: 70%;
+    }
+    .swiper-slide .six .ima36 img {
+        width: 60%;
+        position: relative;
+        left: -11%;
+    }
+    .swiper-slide .six .ima33 {
+        position: absolute;
+        top: 16%;
+        z-index: -1;
+    }
+    .swiper-slide .six .ima33 img {
+        width: 58%;
+    }
+    .swiper-slide .six .ima37 {
+        position: absolute;
+        top: 5%;
+    }
+    .swiper-slide .six .ima37 img {
+        width: 80%;
+    }
+    .swiper-slide .seven {
+        background-color: #f2f5d0;
+    }
+    .swiper-slide .seven .ima43 {
+        position: absolute;
+        top: 0;
+    }
+    .swiper-slide .seven .ima41 {
+        position: absolute;
+        top: 50%;
+    }
+    .swiper-slide .seven .ima41 img {
+        width: 60%;
+    }
+    .swiper-slide .seven .ima42 {
+        position: absolute;
+        top: 17%;
+    }
+    .swiper-slide .seven .ima42 img {
+        width: 70%;
+    }
+    .swiper-slide .seven .ima40 {
+        position: absolute;
+        bottom: 5%;
+    }
+    .swiper-slide .seven .ima40 img {
+        width: 80%;
+    }
+    .swiper-slide .seven .ima44 {
+        position: absolute;
+        top: 3%;
+    }
+    .swiper-slide .seven .ima44 img {
+        width: 81%;
+    }
+    
+
